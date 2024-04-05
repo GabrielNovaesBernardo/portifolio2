@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    /* margin: 0; */
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  body{
+    background-image: linear-gradient(75deg, #4a7c89 40%, #4a5359 40%);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+  }
+  nav{
+    padding-top: 2rem;
+  }
+  .barraNavegacao{
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #ffffff9f;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+  .imgSocialMedia{
+    fill: #ffffff;
+    width: 50px;
+    height: 50px;
+  }
+  svg{
+    fill: #ffffff;
+  }
