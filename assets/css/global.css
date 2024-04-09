@@ -12,14 +12,14 @@
   }
   *{
     /* margin: 0; */
-    padding: 0;
+    /* padding: 0; */
     text-decoration: none;
     list-style: none;
   }
   body{
     background-image: linear-gradient(75deg, #4a7c89 40%, #4a5359 40%);
     background-position: 100%;
-    background-repeat: no-repeat;
+    background-repeat: auto;
     color: #ffffff;
   }
   nav{
